@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Titillium+Web&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+i {
+    cursor: pointer;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfbfbf;
+}
+.container {
+    max-width: 500px;
+    border-radius: 10px;
+    width: 90vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10vh;
+}
+.header {
+    max-height: 30vh;
+    overflow: hidden;
+    position: relative;
+}
+.header img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.clear {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    left: 90%;
+    top: 10%;
+    cursor: pointer;
+}
+.clear i {
+    font-size: 150%;
+}
+.date {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 70%;
+    left: 5%;
+}
+.content {
+    background-color: white;
+    min-height: 40vh;
+}
+.item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.item i:last-child {
+    position: absolute;
+    left: 90%;
+}
+.item i:first-child, .item p {
+    margin-left: 10px;
+}
+.add-item {
+    height: 40px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-top: 2px solid black;
+    border-radius: 10px;
+}
+.add-item i {
+    font-size: 32px;
+    margin-left: 1%;
+}
+.add-item input {
+    font-size: 20px;
+    width: 90%;
+    height: 100%;
+    margin-left: 1%;
+    border: 1px solid black;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.fa-circle-check {
+    color: greenyellow;
+}
